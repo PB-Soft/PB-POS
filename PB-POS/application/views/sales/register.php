@@ -48,7 +48,7 @@ if (isset($success)) {
         }
         ?>
     </label>
-    <?php echo form_input(array('name' => 'item', 'id' => 'item', 'class' => 'form-control', 'style' => 'width:300px; display: inline')); ?>
+    <?php echo form_input(array('name' => 'item', 'id' => 'item', 'class' => 'form-control', 'style' => 'width:300px; display: inline', 'placeholder' => $this->lang->line('sales_start_typing_item_name'))); ?>
 
     <?php
     echo anchor("items/view/-1/width:360", "<div class='btn-sm btn btn-primary' id='new_item_button_register'>" . $this->lang->line('sales_new_item') . "</div>", array('class' => 'thickbox none', 'title' => $this->lang->line('sales_new_item')));
@@ -403,15 +403,7 @@ if (isset($success)) {
 
         $('#item').focus();
 
-        $('#item').blur(function()
-        {
-            $(this).attr('value', "<?php echo $this->lang->line('sales_start_typing_item_name'); ?>");
-        });
-
-        $('#item,#customer').click(function()
-        {
-            $(this).attr('value', '');
-        });
+        
 
         $("#customer").autocomplete('<?php echo site_url("sales/customer_search"); ?>',
                 {
