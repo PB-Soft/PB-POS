@@ -1,0 +1,171 @@
+#register_wrapper
+{
+    float:left;
+    width:70%;
+}
+#mode_form
+{
+    position:relative;
+    background-color:#FFFFFF;
+    padding: 8px 0px 8px 0px;
+    border-bottom: 1px solid #428BCA;
+}
+
+#mode_form span
+{
+    font-weight:bold;
+}
+
+#add_item_form
+{
+    position:relative;
+    background-color:#FFFFFF;
+    width:100%;
+    padding: 8px 0px 8px 0px;
+
+}
+
+.pbbtn-radio{
+    display: none
+}
+
+#new_item_button_register
+{
+    float:right;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+#add_item_form input
+{
+    border: 1px solid #ccc;
+    padding: 2px;
+
+}
+
+#item_label,#customer_label
+{
+    font-weight:bold;
+}
+
+#add_item_form label
+{
+    margin: 0px 5px 0px 5px;
+}
+
+#register
+{
+    position:relative;
+    width:100%;
+    padding:0px;
+    border-collapse:collapse;	
+}
+
+#register th
+{	
+    background-color:#2d6391;
+    padding:5px;
+    text-align:center;
+    color:#FFFFFF;
+}
+
+#register td
+{
+    background-color:#EEEEEE;
+    padding:3px;
+    text-align:center;
+}
+
+#overall_sale
+{
+    float:left;
+    margin-left:4px;
+    background-color:#eeeeee;
+    width:28%;
+    padding:5px;
+    border: 1px solid #2D6391;
+
+}
+
+#sale_details
+{
+    display: block;
+    margin: 5px 0;
+}
+
+#sale_details div div
+{
+    display: inline-block;
+}
+
+#finish_sale
+{
+    
+}
+
+#Payment_Types
+{
+    display: block;
+    margin:10px -5px 0;
+    padding: 5px;
+    border-top:1px solid #2d6391;
+
+}
+
+#Cancel_sale
+{
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#suspended_sales_table
+{
+    width: 100%
+}
+
+#suspended_sales_table th
+{
+    text-align:center;
+    color: #2D6391;
+    border-bottom: 1px solid #428BCA;
+    font-size: 14px;
+    padding: 5px 2px;;
+}
+
+#suspended_sales_table td
+{
+    border-bottom: 1px dotted #428BCA;
+    text-align: center;
+    padding: 5px;
+}
+
+#credit_card_form fieldset 
+{
+    overflow: auto;
+    border: 0;
+    margin: 0;
+    padding: 0; 
+}
+
+#credit_card_form fieldset div 
+{
+    float: left; 
+}
+
+#credit_card_form fieldset.centered div 
+{
+    text-align: center; 
+}
+
+#credit_card_form label 
+{
+    display: block;
+    margin-bottom: 5px; 
+}
+
+#credit_card_form input.text 
+{
+    border: 1px solid #bfbab4;
+    margin: 0 4px 8px 0;
+}
+

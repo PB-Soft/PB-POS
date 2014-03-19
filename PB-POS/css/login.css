@@ -1,0 +1,54 @@
+@import url(bootstrap.css);
+
+body
+{
+	text-align:center;
+}
+#container
+{
+	margin: 20px auto 0;
+	width:360px;
+
+}
+
+#top
+{
+	width:100%;
+	padding:2px;
+	background-color:#2D6391;
+	text-align:center;
+	color:#ffffff;
+        border-radius: 7px;   
+}
+
+#login_form
+{
+	padding:20px 0;
+        margin: 0 auto;     
+}
+
+
+
+.error
+{
+	margin:0 auto;
+	border:3px solid #d3153b;
+	background-color:#fbe6f2;
+	padding:5px;
+	width:80%;
+	text-align:center;
+	font-size:18px;
+	margin-bottom:20px;
+	
+}
+
+
+#submit_button
+{
+	position:absolute;
+	bottom:60px;
+	right:60px;
+}
+
+
+

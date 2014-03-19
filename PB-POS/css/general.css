@@ -1,0 +1,209 @@
+
+
+*{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.field_row 
+{
+    margin: 0 0 10px 0;
+}
+
+.field_row label 
+{
+    float:left;
+    width:100px;
+    text-align:left;
+    line-height:2.3;
+}
+
+.field_row label.wide 
+{
+    width:150px;
+}
+
+label.required
+{
+    color:red;
+}
+
+.form_field
+{
+    float:left;
+    padding: 3px;
+    background-color: #f2f2f2;
+}
+
+.form_field input, .form_field textarea 
+{
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+.submit_button 
+{
+    padding: 5px;
+    color: #fff;
+    background-color: #0a6184;
+    border: 2px solid #ddd;
+}
+
+.delete_button 
+{
+    padding: 5px;
+    color: #fff;
+    background-color: #ea4729;
+    border: 2px solid #ddd;
+}
+.small_button
+{
+    display: inline-block;
+    padding: 2px 4px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-user-select: none;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+}
+
+.small_button:hover, .small_button:active, .small_button:focus
+{
+    color: rgb(51, 51, 51);
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(173, 173, 173);
+}
+.small_button:focus
+{
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.small_button:active
+{
+    outline: 0px none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.big_button
+{
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33em;
+    border-radius: 6px;
+    display: inline-block;    
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -moz-user-select: none;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(204, 204, 204);
+}
+
+.big_button:hover, .big_button:active, .big_button:focus
+{
+    color: rgb(51, 51, 51);
+    background-color: rgb(235, 235, 235);
+    border-color: rgb(173, 173, 173);
+}
+.big_button:focus
+{
+    outline: thin dotted;
+    outline-offset: -2px;
+}
+
+.big_button:active
+{
+    outline: 0px none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset;
+}
+
+.blue_button
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+    border-color: rgb(53, 126, 189);
+}
+
+.blue_button:hover, .blue_button:active, .blue_button:focus
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+
+.float_left
+{
+    float:left;
+}
+
+.float_right
+{
+    float:right;
+}
+
+.warning_message
+{
+    text-align:center;
+    background-color:#fffcdd;
+    border:1px solid #fff4aa;
+    font-weight:bold;
+}
+
+.error_message
+{
+    text-align:center;
+    background-color:#f68383;
+    border:1px solid #da3232;
+    font-weight:bold;
+}
+
+.warning_mesage
+{
+    text-align:center;
+    background-color:#FBEC5D;
+    border:1px solid #da3232;
+    font-weight:bold;
+}
+
+.success_message
+{
+    text-align:center;
+    background-color:#e1ffdd;
+    border:1px solid #2ca71c;
+    font-weight:bold;
+}
+
+input
+{
+    padding: 3px;
+}
+
+.clearfix:after 
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix {	display: block; }
+* html .clearfix { height: 1%; }
